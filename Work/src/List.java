@@ -17,7 +17,7 @@ public interface List<E> {
     /**
      * Removes all elements from the list
      */
-    public void remove();
+    public E remove();
 
     /**
      * Remove element at index i
